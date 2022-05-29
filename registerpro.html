@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeetJobs | Cadastro Profissional</title>
+    <link rel="stylesheet" href="estilos/estilocadastrarpro.css">
+    <link rel="shortcut icon" href="/img/favicon-site.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1><a href="home.html">MeetJobs</a></h1>
+    </div>
+
+    <main>
+        <div class="conteudo">
+            <h2>Faça seu Cadastro Profissional</h2>
+            <p>Preencha os campos abaixo.</p>
+            <input placeholder="Digite seu nome completo" type="text" name="nome" id="nome" minlength="3" required />
+            <input placeholder="Digite seu CPF ou CNPJ" type="text" name="cpf" id="cpf_cnpj" required />
+            <select name="sexo" id="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+                <option value="Outro">Outro</option>
+            </select>
+            <input placeholder="Digite seu endereço" type="text" name="endereco" id="endereco" required />
+            <input placeholder="(XX) XXXXX-XXXX" type="text" name="telefone" id="telefone" required />
+            <input placeholder="exemplo@email.com" type="email" name="email" id="email" required />
+            <input placeholder="Digite sua senha" type="password" name="senha" id="senha" required />
+            <input placeholder="Area de atuação" type="text" name="area_atuacao" id="area_atuacao" />
+            <textarea placeholder="Escreva aqui uma Descricao sobre você e seu serviço:" name="Descricao" id="descricao"  rows="10"></textarea>
+            <button onclick="postCliente()">Cadastre-se</button>
+            <script src="scripts/registerpr.js"></script>
+        </div>
+
+    </main>
+    <footer>
+        <a href="#">Imprensa</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Termos de Uso</a>
+        <a href="#">Política de Privacidade</a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:ital,wght@0,500;0,700;1,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    background-color: #dceaf3;
+    font-size: 22px;
+}
+
+
+
+.header {
+    background: #0897B4;
+    font-family: 'Poppins', sans-serif;
+    color: #F29325;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px -15px 90px 10px #0897B4;
+}
+
+.header h1 a {
+    font-size: 100%;
+    text-decoration: none;
+    color: #F29325;
+    border-radius: 4px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.header h1 a:hover{
+    color: #bd894f;
+}
+
+
+
+.menu {
+    font-size: 70%;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    transition: 0.4s;
+    padding: 3px;
+}
+
+.menu-especial {
+    font-size: 70%;
+    border: 1px solid white;
+    padding: 2%;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.menu:hover {
+    color: #F29325;
+    border: 1px solid #F29325;
+}
+
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3%;
+    font-size: 90%;
+}
+
+.conteudo-principal-titulo {
+    font-size: 90%;
+    color: rgb(77, 77, 136);
+    text-align: justify;
+
+}
+
+.conteudo-principal-paragrafo {
+    font-size: 80%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.conteudo-principal-input {
+    font-size: 70%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 5%;
+    width: 80%;
+
+}
+
+.conteudo-principal-button {
+    width: 35%;
+    padding: 2%;
+    border: none;
+    background: #0897B4;
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.623);
+    transition: 0.4s;
+}
+
+.conteudo-principal-button:hover {
+    background-color: #077085;
+    color: rgb(156, 150, 150);
+}
+
+img {
+    width: 25%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.623);
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    border-radius: 20px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0897B4;
+    font-size: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0px;
+    z-index: 1;
+    position: fixed;
+    text-decoration: none;
+    opacity: 65%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+footer a:hover {
+    color: #F29325;
+}
