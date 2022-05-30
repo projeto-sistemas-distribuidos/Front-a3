@@ -24,7 +24,7 @@ function exibirProfissionais(users) {
         output += `<div class="conteudo-card">`
         output += `<h1>${user.nome}</h1>`
         output += `<p>Area de atuação: ${user.area_atuacao}</p>`
-        output += `<p>UF: ${user.endereco}<p>`
+        output += `<p>Endereço: ${user.endereco}<p>`
         output += `<p>Telefone: ${user.telefone}</p>`
         output += `<p>Descrição: ${user.descricao}</p>`
         output += `<button>Contrate já</button>`
